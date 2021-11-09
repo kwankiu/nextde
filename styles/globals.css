@@ -1,9 +1,21 @@
+:root {
+  --main-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --code-font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+  --primary-color: #0070f3;
+  --secondary-color: #eeeeee;
+  --background: #282828;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--main-font-family);
+  background: var(--background);
+  background-size: 100% auto;
+  color: var(--secondary-color);
 }
 
 a {
@@ -13,4 +25,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  padding: 0 2rem;
 }

@@ -1,0 +1,64 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer {
+  width: 128px;
+  height: 128px;
+  display: block;
+  margin: 48px;
+  padding: 8px;
+  animation: loading 2s infinite;
+}
+
+.logo {
+  display: block;
+  max-width: 100%;
+  animation: loading-icon 2s infinite;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(229deg) brightness(101%) contrast(100%);
+}
+
+@keyframes loading {
+  0% {
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(500px) rotateX(180deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(500px) rotateX(180deg) rotateY(-180deg);
+  }
+}
+
+@keyframes loading-icon {
+  0% {
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+  }
+  15% {
+    transform: perspective(500px) rotateX(0deg) rotateY(0deg);
+  }
+  16% {
+    transform: perspective(500px) rotateX(180deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(500px) rotateX(180deg) rotateY(0deg);
+  }
+  65% {
+    transform: perspective(500px) rotateX(180deg) rotateY(0deg);
+  }
+  66% {
+    transform: perspective(500px) rotateX(180deg) rotateY(180deg);
+  }
+  100% {
+    transform: perspective(500px) rotateX(180deg) rotateY(180deg);
+  }
+}
+
+@media (max-width: 600px) {
+}
