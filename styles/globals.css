@@ -13,8 +13,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--main-font-family);
-  background: var(--background);
-  background-size: 100% auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),var(--background);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: var(--secondary-color);
 }
 

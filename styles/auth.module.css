@@ -8,20 +8,19 @@
   align-items: center;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-  text-align: center;
-  color: var(--primary-color);
+.userContainer {
+  text-transform: none;
+  color: var(--secondary-color);
+  padding: 1em 2em;
+  border-radius: 12px;
 }
 
-.title a {
-  text-decoration: none;
+.avatar {
+  height: 96px;
+  width: 96px;
+  transition: .5s box-shadow;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.avatar:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
