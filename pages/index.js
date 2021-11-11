@@ -17,20 +17,28 @@ setTimeout(() => {
 
 React.useEffect(() => {
   if(!showsplash) {
+  setTimeout(() => {  
   document.getElementById("splash").style.display = "none";
+  },500)
   } else {
+  setTimeout(() => {  
   document.getElementById("splash").style.display = "unset";   
+  },500)
   }
 }, [showsplash])
 
 React.useEffect(() => {
   if (showauth) {
+  setTimeout(() => {  
   document.getElementById("auth").style.display = "unset";
   //document.documentElement.style.setProperty('--background', "url('https://cdn.pixabay.com/photo/2017/06/03/20/12/art-2369664_1280.jpg')");
   document.documentElement.style.setProperty('--background', "url('https://cdn.pixabay.com/photo/2019/04/26/17/47/color-4158152_1280.jpg')");
+  },500)  
   } else {
+  setTimeout(() => {  
   document.getElementById("auth").style.display = "none";  
   document.documentElement.style.setProperty('--background', '#282828');
+  },500)  
   }
 }, [showauth])
 
