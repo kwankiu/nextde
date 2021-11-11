@@ -9,18 +9,18 @@
 }
 
 .userContainer {
-  text-transform: none;
-  color: var(--secondary-color);
-  padding: 1em 2em;
-  border-radius: 12px;
+  text-transform: none !important;
+  color: var(--secondary-color) !important;
+  padding: 1em 2em !important;
+  border-radius: 12px !important;
 }
 
 .avatar {
-  height: 96px;
-  width: 96px;
-  transition: .5s box-shadow;
+  height: 96px !important;
+  width: 96px !important;
+  transition: .5s box-shadow !important;
 }
 
 .avatar:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
 }
