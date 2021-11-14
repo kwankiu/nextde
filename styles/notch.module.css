@@ -7,14 +7,6 @@
   box-shadow: 0 4px 8px rgb(0 0 0 / 5%), 0 10px 10px rgb(0 0 0 / 18%);
   padding: 8px 10px;
   border-radius: 12px;
-
-  /* Macbook Pro Notch 
-  color: #282828;
-  background-color: #000;
-  top: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  padding: 8px 68px; */
 }
 
 .notchContainer svg {
