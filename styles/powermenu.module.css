@@ -1,0 +1,10 @@
+.powerbtnContainer {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+
+.powerbtnContainer svg {
+  font-size: 1.8em;
+  color: var(--secondary-color);
+}

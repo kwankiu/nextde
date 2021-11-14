@@ -1,0 +1,23 @@
+.taskbarContainer {
+  position: absolute;
+  display: flex;
+  top: 8px;
+  right: 12px;
+  color: #38536e;
+  background-color: rgba(230,250,250,0.8);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 5%), 0 10px 10px rgb(0 0 0 / 18%);
+  padding: 8px 10px;
+  border-radius: 12px;
+}
+
+.taskbarContainer p {
+  font-size: 1em;
+  margin: 3px;
+}
+
+.taskbarContainer svg {
+  font-size: 1.2em;
+  height: 1.2em;
+  margin-left: .25em;
+  margin-right: .25em;
+}

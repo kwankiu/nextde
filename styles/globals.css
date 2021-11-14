@@ -13,10 +13,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--main-font-family);
-  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),var(--background);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-color: #000;
   color: var(--secondary-color);
 }
 
@@ -31,4 +28,17 @@ a {
 
 .container {
   padding: 0 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),var(--background);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /* round corner 
+  border-radius: 16px; */
+}
+
+.notch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

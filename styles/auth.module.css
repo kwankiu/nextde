@@ -28,5 +28,16 @@
 }
 
 .outlineWhite fieldset {
-  border-color: var(--secondary-color) !important;
+  background-color: rgba(255,255,255,.05) !important;
+  border-color: rgba(255,255,255,.05) !important;
+}
+
+.cancelbtnContainer {
+  position: absolute;
+  bottom: 3em;
+}
+
+.cancelbtnContainer svg {
+  font-size: 1.8em;
+  color: var(--secondary-color);
 }

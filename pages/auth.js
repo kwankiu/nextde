@@ -2,6 +2,9 @@ import * as React from 'react'
 import styles from '../styles/auth.module.css'
 import { Avatar, Button, Zoom, TextField, InputAdornment, IconButton, FormControl, OutlinedInput, InputLabel } from '@mui/material'
 import { ArrowForward } from '@mui/icons-material';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import TaskBar from './taskbar.js';
+import PowerMenu from './powermenu.js';
 
 export default function Auth() {
 
@@ -24,6 +27,7 @@ React.useEffect(() => {
 
   return (
     <main className={styles.main}>
+    <TaskBar />
     <br />
     <div id="user">
     <Zoom in={showuser}>
@@ -54,7 +58,7 @@ React.useEffect(() => {
      <Avatar className={styles.avatar} style={{height:'128px', width:'128px'}} />    
      </div>
      <div style={{display:'flex',justifyContent:'center', fontSize:'1.5em'}}>
-     <p onClick={() => {setUser(true)}}>User</p>  
+     <p>User</p>  
      </div>
      <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
      <InputLabel htmlFor="outlined-adornment-password" size="small" style={{color:'var(--secondary-color)'}}>Password</InputLabel>
@@ -67,7 +71,16 @@ React.useEffect(() => {
      </FormControl>     
     </div>
     </Zoom>
+
+    <Zoom in="true">
+    <div style={{display:'flex',justifyContent:'center'}}>
+    <IconButton className={styles.cancelbtnContainer} onClick={() => {setUser(true)}}><HighlightOffIcon /></IconButton>
+    <p style={{position:'absolute',bottom:'2.5em'}}>cancel</p>
     </div>
+    </Zoom>
+    </div>
+
+    <PowerMenu />
   </main>
   )
 }
