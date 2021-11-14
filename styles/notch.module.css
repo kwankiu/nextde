@@ -1,5 +1,5 @@
 .notchContainer {
-  position: absolute;
+  position: absolute !important;
   display: flex;
   top: 8px;
   color: #000;

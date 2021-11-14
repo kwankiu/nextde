@@ -33,7 +33,7 @@
 }
 
 .cancelbtnContainer {
-  position: absolute;
+  position: absolute !important;
   bottom: 3em;
 }
 

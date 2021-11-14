@@ -1,5 +1,5 @@
 .powerbtnContainer {
-  position: absolute;
+  position: absolute !important;
   bottom: 2em;
   right: 2em;
 }
