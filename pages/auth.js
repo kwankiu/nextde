@@ -72,7 +72,7 @@ React.useEffect(() => {
     </div>
     </Zoom>
 
-    <Zoom in="true">
+    <Zoom in={!showuser}>
     <div style={{display:'flex',justifyContent:'center'}}>
     <IconButton className={styles.cancelbtnContainer} onClick={() => {setUser(true)}}><HighlightOffIcon /></IconButton>
     <p style={{position:'absolute',bottom:'2.5em'}}>cancel</p>
