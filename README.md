@@ -1,4 +1,4 @@
-## This project is no longer updated. I am working on a similar project, check https://github.com/1usProject/1usProject.github.io/tree/webde (this link may be updated at anytime)
+## This project is no longer updated. I am working on a similar project, check https://github.com/1usOS/webde
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
